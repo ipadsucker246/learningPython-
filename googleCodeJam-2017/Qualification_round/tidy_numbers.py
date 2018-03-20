@@ -19,7 +19,7 @@ def tidy_number(n):
             
      # if the current number is < the last numebr we looped through, break. Now comes the fun part. 
      # for example: as we loop through say "123325" we'll have designated where our numebr is not "tidy" ("32"). 
-     # we would assign "3325" as the untidied part. THe reason for that is, if we only tidy "325", our number would be like this "123299" 
+     # we would assign "3325" as the untidied part. THe reason for that is that, if we only tidy "325", our number would be like this "123299" 
      # since "325" can only be subtracted to find the closest tidied number we can subtract it to "299", but then if there was any  
      # multiple of the biggest number in the untidied_part('3') previously in the cache, we would create an untidied number. 
         
