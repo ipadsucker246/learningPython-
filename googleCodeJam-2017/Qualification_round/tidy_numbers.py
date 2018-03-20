@@ -34,7 +34,6 @@ def tidy_number(n):
     if len(untidied_part) == len(str_number): 
         result = untidied_part[0] + '0'*(len(untidied_part) - 1 ) 
         return int(result) - 1 
-        
     elif len(untidied_part) != len(str_number): 
         str_number = str_number[0:len(str_number)-len(untidied_part)]
         untidied_part = untidied_part[0] + '0'*(len(untidied_part) - 1 )
